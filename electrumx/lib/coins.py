@@ -1228,12 +1228,9 @@ class Dash(Coin):
     TX_PER_BLOCK = 4
     RPC_PORT = 9998
     PEERS = [
-        'electrum.dash.org s t',
-        'electrum.masternode.io s t',
-        'electrum-drk.club s t',
-        'dashcrypto.space s t',
-        'electrum.dash.siampm.com s t',
-        'wl4sfwq2hwxnodof.onion s t',
+        'electrumx-mainnet.dash.org s',
+        'drk.p2pay.com s',
+        'hyhwaxmckqakwjde.onion s',
     ]
     SESSIONCLS = DashElectrumX
     DAEMON = daemon.DashDaemon
@@ -1262,8 +1259,10 @@ class DashTestnet(Dash):
     RPC_PORT = 19998
     PEER_DEFAULT_PORTS = {'t': '51001', 's': '51002'}
     PEERS = [
-        'electrum.dash.siampm.com s t',
-        'dasht.random.re s54002 t54001',
+        'electrumx-testnet.dash.org s50002',
+        'hyhwaxmckqakwjde.onion s60002',
+        'dasht.random.re s54002',
+        'dword.ga s',
     ]
 
 
