@@ -2,7 +2,7 @@ import setuptools
 version = '1.16.0'
 
 setuptools.setup(
-    name='e-x',
+    name='Dash-ElectrumX',
     version=version,
     scripts=['electrumx_server', 'electrumx_rpc', 'electrumx_compact_history'],
     python_requires='>=3.7',
@@ -25,13 +25,14 @@ setuptools.setup(
         'cpupower': ['cpupower'],
     },
     packages=setuptools.find_packages(include=('electrumx*',)),
-    description='ElectrumX Server',
-    author='Electrum developers',
-    author_email='electrumdev@gmail.com',
+    description='ElectrumX Server (Dash fork)',
+    maintainer="akhavr",
+    maintainer_email="akhavr@khavr.com",
     license='MIT Licence',
-    url='https://github.com/spesmilo/electrumx',
-    long_description='Server implementation for the Electrum protocol',
-    download_url=('https://github.com/spesmilo/electrumX/archive/'
+    url='https://github.com/akhavr/electrumx',
+    long_description=('Server implementation for the Electrum protocol'
+                      ' (Dash fork)'),
+    download_url=(f'https://github.com/akhavr/electrumx/archive/'
                   f'{version}.tar.gz'),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
