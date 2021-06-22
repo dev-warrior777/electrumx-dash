@@ -4,7 +4,7 @@
 FROM ubuntu:20.04
 
 WORKDIR /
-ADD https://github.com/spesmilo/electrumx/archive/1.15.0.tar.gz /
+ADD https://github.com/akhavr/electrumx/archive/1.16.0.1.tar.gz /
 RUN tar zxvf *.tar.gz
 
 RUN apt-get update && \
@@ -12,8 +12,8 @@ RUN apt-get update && \
 
 RUN cd /electrumx* && pip3 install .[rocksdb]
 
-ENV SERVICES="tcp://:50001"
-ENV COIN=Bitcoin
+ENV SERVICES="tcp://:51001"
+ENV COIN=Dash
 ENV DB_DIRECTORY=/db
 ENV DAEMON_URL="http://username:password@hostname:port/"
 ENV ALLOW_ROOT=true

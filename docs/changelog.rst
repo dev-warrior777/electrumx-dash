@@ -3,6 +3,19 @@
 ===========
 
 
+Version 1.16.0.1
+============================
+
+Note: this is the first release since forking from spesmilo/electrumx. We are
+using the `e-x <https://pypi.org/project/Dash-ElectrumX/>`_ name on PyPI,
+so you can install this package via e.g. :code:`pip install Dash-ElectrumX`.
+
+* lib/coins.py: renew servers for Dash/DashTestnet
+* server/env.py: raise default session limits
+* add x11-hash to requirements
+* modify docs
+
+
 Version 1.16.0 (10 Dec 2020)
 ============================
 
