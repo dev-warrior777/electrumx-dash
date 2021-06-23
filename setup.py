@@ -1,5 +1,5 @@
 import setuptools
-version = '1.16.0'
+version = '1.16.0.1'
 
 setuptools.setup(
     name='Dash-ElectrumX',
@@ -7,7 +7,7 @@ setuptools.setup(
     scripts=['electrumx_server', 'electrumx_rpc', 'electrumx_compact_history'],
     python_requires='>=3.7',
     install_requires=['aiorpcX[ws]>=0.18.3,<0.19', 'attrs',
-                      'plyvel', 'pylru', 'aiohttp>=3.3'],
+                      'plyvel', 'pylru', 'aiohttp>=3.3', 'x11-hash>=1.4'],
     extras_require={
         'rapidjson': ['python-rapidjson>=0.4.1,<1.0.0'],
         'rocksdb': ['python-rocksdb>=0.6.9'],

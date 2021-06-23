@@ -4,7 +4,7 @@
 ###############
 
 # configure electrumx
-export COIN=Bitcoin
+export COIN=Dash
 export DAEMON_URL=http://rpcuser:rpcpassword@127.0.0.1
 export NET=mainnet
 export CACHE_MB=400
@@ -16,8 +16,8 @@ export DONATION_ADDRESS=your-donation-address
 
 # connectivity
 export HOST=
-export TCP_PORT=50001
-export SSL_PORT=50002
+export TCP_PORT=51001
+export SSL_PORT=51002
 
 # visibility
 export REPORT_HOST=hostname.com
