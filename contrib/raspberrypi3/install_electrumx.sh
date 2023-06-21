@@ -1,7 +1,7 @@
 #!/bin/sh
-###################
-# install electrumx
-###################
+########################
+# install electrumx-dash
+########################
 
 # Remove "raspi-copies-and-fills" as it breaks the upgrade process
 sudo apt-get purge raspi-copies-and-fills
@@ -12,7 +12,7 @@ sudo apt-get update
 sudo apt-get dist-upgrade
 sudo apt-get autoremove
 
-# install electrumx dependencies
+# install electrumx-dash dependencies
 sudo apt-get install python3-pip
 sudo apt-get install build-essential libc6-dev
 sudo apt-get install libncurses5-dev libncursesw5-dev
@@ -21,7 +21,7 @@ sudo apt-get install libleveldb-dev
 sudo apt-get install git
 sudo pip3 install plyvel
 
-# install electrumx
-git clone https://github.com/akhavr/electrumx.git
-cd electrumx
+# install electrumx-dash
+git clone https://github.com/dev-warrior777/electrumx-dash.git
+cd electrumx-dash
 sudo python3 setup.py install
