@@ -1,6 +1,12 @@
 ===========
  ChangeLog
 ===========
+Version 1.17.0
+============================
+
+Split from main fork making a lighter weight electrumX server for Dash.
+
+A lot of old stuff will be removed.
 
 
 Version 1.16.0.1

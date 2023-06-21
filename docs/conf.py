@@ -82,8 +82,8 @@ html_theme = 'alabaster'
 #
 html_theme_options = {
     'description': 'Lightweight Electrum Server in Python',
-    'github_user': 'akhavr',
-    'github_repo': 'electrumx',
+    'github_user': 'dev-warrior777',
+    'github_repo': 'electrumx-dash',
     'github_button': True,
     'github_type': 'star',
     'github_banner': True,

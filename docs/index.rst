@@ -2,7 +2,7 @@
 ElectrumX
 =========
 
-This project is a fork of `spesmilo/electrumx <https://github.com/spesmilo/electrumx>`_.
+This project is a detached `fork' of `spesmilo/electrumx <https://github.com/spesmilo/electrumx>`_.
 
 ElectrumX allows users to run their own Electrum server. It connects to your
 full node and indexes the blockchain, allowing efficient querying of history of
@@ -10,26 +10,26 @@ arbitrary addresses. The server can be exposed publicly, and joined to the publi
 of servers via peer discovery. As of May 2020, a significant chunk of the public
 Electrum server network runs ElectrumX.
 
-The current version is |release|.
+The current version is |wip|.
 
 Source Code
 ===========
 
 The project is hosted on `GitHub
-<https://github.com/akhavr/electrumx/>`_.
+<https://github.com/dev-warrior777/electrumx-dash/>`_.
 
 Please submit an issue on the `bug tracker
-<https://github.com/akhavr/electrumx/issues>`_ if you have found a
-bug or have a suggestion to improve the server.
+<https://github.com/dev-warrior777/electrumx-dash/issues>`_ if you have found a
+bug or have a suggestion to improve the server. Not for Windows.
 
 Authors and License
 ===================
 
 Neil Booth wrote the vast majority of the code; see :ref:`Authors`.
-Python version at least 3.7 is required.
+Python version at least 3.10 is required.
 
 The code is released under the `MIT Licence
-<https://github.com/akhavr/electrumx/LICENCE>`_.
+<https://github.com/dev-warrior777/electrumx-dash/LICENCE>`_.
 
 Getting Started
 ===============

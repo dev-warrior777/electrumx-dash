@@ -119,7 +119,7 @@ A typical result is as follows (with annotated comments)::
       "tx hashes cache": "289 lookups 38 hits 213 entries",
       "txs sent": 19,                  # Transactions broadcast
       "uptime": "01h 39m 04s",
-      "version": "ElectrumX 1.10.1"
+      "version": "ElectrumX 1.17.0"
   }
 
 Each ill-formed request, or one that does not follow the Electrum

@@ -1,7 +1,7 @@
 #!/bin/sh
-###############
-# run_electrumx
-###############
+####################
+# run_electrumx-dash    
+####################
 
 # configure electrumx
 export COIN=Dash
@@ -16,8 +16,8 @@ export DONATION_ADDRESS=your-donation-address
 
 # connectivity
 export HOST=
-export TCP_PORT=51001
-export SSL_PORT=51002
+export TCP_PORT=57001
+export SSL_PORT=57002
 
 # visibility
 export REPORT_HOST=hostname.com

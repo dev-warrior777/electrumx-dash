@@ -1,5 +1,5 @@
 import setuptools
-version = '1.16.0.1'
+version = '1.17.0'
 
 setuptools.setup(
     name='Dash-ElectrumX',
@@ -27,20 +27,20 @@ setuptools.setup(
     },
     packages=setuptools.find_packages(include=('electrumx*',)),
     description='ElectrumX Server (Dash fork)',
-    maintainer="akhavr",
-    maintainer_email="akhavr@khavr.com",
+    maintainer="dev-warrior777",
+    maintainer_email="devwarrior@gmx.com",
     license='MIT Licence',
-    url='https://github.com/akhavr/electrumx',
+    url='https://github.com/dev-warrior777/electrumx-dash',
     long_description=('Server implementation for the Electrum protocol'
-                      ' (Dash fork)'),
-    download_url=(f'https://github.com/akhavr/electrumx/archive/'
+                      ' (Dash fork - Lightweight)'),
+    download_url=(f'https://github.com/dev-warrior777/electrumx-dash/archive/'
                   f'{version}.tar.gz'),
     classifiers=[
-        'Development Status :: 5 - Production/Stable',
+        'Development Status :: 5 - Production/WIP',
         'Framework :: AsyncIO',
         'License :: OSI Approved :: MIT License',
         'Operating System :: Unix',
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.10",
         "Topic :: Database",
         'Topic :: Internet',
     ],
