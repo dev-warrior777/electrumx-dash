@@ -7,13 +7,14 @@ setuptools.setup(
     scripts=['electrumx_server', 'electrumx_rpc', 'electrumx_compact_history'],
     python_requires='>=3.7',
     install_requires=['aiorpcX[ws]>=0.18.3,<0.19', 'attrs',
-                      'plyvel', 'pylru', 'aiohttp>=3.3', 'x11-hash>=1.4'],
+                      'plyvel', 'pylru', 'aiohttp>=3.3', 'dash-hash>=1.4'],
     extras_require={
         'rapidjson': ['python-rapidjson>=0.4.1,<1.0.0'],
         'rocksdb': ['python-rocksdb>=0.6.9'],
         'ujson': ['ujson>=2.0.0,<4.0.0'],
         'uvloop': ['uvloop>=0.14'],
         # For various coins
+        'dash-hash': ['dash-hash>=1.4'],
         'blake256': ['blake256>=0.1.1'],
         'crypto': ['pycryptodomex>=3.8.1'],
         'groestl': ['groestlcoin-hash>=1.0.1'],
